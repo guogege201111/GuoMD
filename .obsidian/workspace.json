@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "5ef70f96d2da9b7c",
+    "id": "94d1df332a9f2bff",
     "type": "split",
     "children": [
       {
-        "id": "c46e6a5ba6dda759",
+        "id": "a9ec1f4dea91d6f7",
         "type": "tabs",
         "children": [
           {
-            "id": "072ad312909bbc52",
+            "id": "796d1941c6b86a06",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "QT/常用.md",
+                "file": "QT/QString.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "常用"
+              "title": "QString"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "c8af9ed553a146a6",
+    "id": "16e9ea3ffff43ad9",
     "type": "split",
     "children": [
       {
-        "id": "e40f835b64f69870",
+        "id": "ca6394639ee8511f",
         "type": "tabs",
         "children": [
           {
-            "id": "14351396b96d1940",
+            "id": "504e13aae3c5d92c",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "b0acb09d3b8d671b",
+            "id": "f5a79cc13692f9c2",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "3383dbb7ed172c35",
+            "id": "6b64a64eededabf7",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -74,28 +74,27 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
   "right": {
-    "id": "d93c69c442267031",
+    "id": "77b3656e4f52e62a",
     "type": "split",
     "children": [
       {
-        "id": "165ea2d20a2e26c7",
+        "id": "788734a0f44d7b98",
         "type": "tabs",
         "children": [
           {
-            "id": "066dd3a9ccae4330",
+            "id": "fce83eccf7a8a6e5",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "新架构重构问题.md",
+                "file": "QT Demo/QT 右键设置菜单.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,24 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "新架构重构问题 的反向链接列表"
+              "title": "QT 右键设置菜单 的反向链接列表"
             }
           },
           {
-            "id": "b55627d9b91bd4d0",
+            "id": "004933aa76d9cc0f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "linksCollapsed": true,
+                "file": "QT Demo/QT 右键设置菜单.md",
+                "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "QT 右键设置菜单 的出链列表"
             }
           },
           {
-            "id": "f3e2067ba7902e82",
+            "id": "be82b8004a45079f",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,7 +137,7 @@
             }
           },
           {
-            "id": "87527c2d28b31219",
+            "id": "e2bb494b5f774256",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -150,19 +150,8 @@
               "icon": "lucide-list",
               "title": "QT 右键设置菜单 的大纲"
             }
-          },
-          {
-            "id": "9f719d7933a3cfa0",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -171,31 +160,22 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:创建新数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-git:Open Git source control": false
+      "bases:创建新数据库": false
     }
   },
-  "active": "b0acb09d3b8d671b",
+  "active": "796d1941c6b86a06",
   "lastOpenFiles": [
-    "QT Demo/Qt 模型视图委托.md",
+    "C++/string.md",
+    "QT/QString.md",
     "QT Demo/QT 右键设置菜单.md",
-    "QT/常用.md",
-    "QT",
-    "激光治疗项目",
-    "Qt 模型视图委托.md",
-    "QT Demo/readme",
-    "QT Demo",
-    "未命名 1.canvas",
-    "未命名.canvas",
-    "新架构重构问题.md",
-    ",git",
-    "创建链接.md",
-    "欢迎.md"
+    "C++",
+    "QT Demo/Qt 模型视图委托.md",
+    "QT/常用.md"
   ]
 }
