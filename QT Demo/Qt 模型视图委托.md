@@ -8,7 +8,7 @@
 ```cpp
        QStringList data;
        data<<"1"<<"2"<<"3";
-      mModel->setStringListData();
+      mModel->setStringList(data);
       ```
 
 4、View设置Model
