@@ -1,0 +1,5 @@
+{
+    "qt.path": "/usr/lib/qt5/bin",
+    "cmake.configureOnOpen": true
+}
+

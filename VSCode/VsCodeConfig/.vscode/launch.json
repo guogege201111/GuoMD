@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) 启动 QT 调试",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build-Sky_Fulleye_Image_Platform-unknown-Debug/Sky_Fulleye_Image_Platform/bin",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            // 重要：指定QT的构建目录作为工作目录
+            "cwd": "${workspaceFolder}/build-Sky_Fulleye_Image_Platform-unknown-Debug"
+        }
+    ]
+}
+
