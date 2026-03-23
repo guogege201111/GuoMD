@@ -37,3 +37,13 @@ b、APPEND ${cbootargs} quiet splash改为APPEND ${cbootargs} quiet splash isolc
 c、sudo reboot
 
 ```
+
+3、查看软件线程运行在哪个CPU
+```
+1、pidof SkyOCT // 获取进程号
+2、ps -T -p 12345 -o pid,tid,psr,pcpu,comm // 12345为上一步获取的进程号，PSR 就是线程最近一次运行的 CPU
+3、taskset -pc 45678// 查看某个线程的affinity掩码，45678为上一部显示的线程号
+4、可选，在线程中打印
+LOG_INFO("octcap tid={}, cpu={}", (long)syscall(SYS_gettid), sched_getcpu());
+
+```
